@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Filename</label>
+    <input type="text" id="filename" value="hello.ics"/>
+
+    <br/><br/><br/>
+
+    <label for="text-val">Please enter required meeting date <br/> in format YYYYMMDD:</label>
+    <br/>
+    <textarea id="text-val" rows="4">20211230</textarea>
+    
+    <br/>
+
+    <button type="button" id="download-btn">
+        Download dynamically generated iCal file
+    </button> 
+
+   <script src="script/txt_download.js">
+</script>
+
+</body>
+</html>
